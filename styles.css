@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    background-color: blanchedalmond;
+    background-color: #efeee7;
     font-family: serif;
     padding: 0;
 }
@@ -13,7 +13,7 @@ a {
 .header h1 {
     background-color: black;
     text-align: center;
-    color: blanchedalmond;
+    color: #efeee7;
     size: 36px;
     padding: 10px;
 }
@@ -30,9 +30,17 @@ h2 {
     width: 70%;
 }
 
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 0 0 0 30px;
+}
+
 .about img {
     float: left;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 30px;
+    width: 200px;
+    height: 200px;
 }
 
 /*CONTACT INFO STYLING*/
@@ -42,4 +50,5 @@ h2 {
 
 .contact ul {
     padding-left: 70px;
+    font-size: 18px;
 }
