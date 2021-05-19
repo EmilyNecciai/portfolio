@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    background-color: blanchedalmond;
+    font-family: serif;
+    padding: 0;
+}
+
+a {
+    color: red;
+}
+
+/*TOP HEADER STYLING*/
+.header h1 {
+    background-color: black;
+    text-align: center;
+    color: blanchedalmond;
+    size: 36px;
+    padding: 10px;
+}
+
+/*H2 STYLING AND SPACING*/
+h2 {
+    padding: 30px;
+}
+
+/*BIO ARTICLE STYLING*/
+.about {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+
+.about img {
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+/*CONTACT INFO STYLING*/
+.contact {
+    display: inline-block;
+}
+
+.contact ul {
+    padding-left: 70px;
+}
