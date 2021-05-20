@@ -2,7 +2,6 @@
     margin: 0;
     background-color: #efeee7;
     font-family: serif;
-    padding: 0;
 }
 
 a {
@@ -18,6 +17,12 @@ a {
     padding: 10px;
 }
 
+/*MAIN CONTENT BELOW HEADER*/
+.content {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 /*H2 STYLING AND SPACING*/
 h2 {
     padding: 30px;
@@ -27,7 +32,7 @@ h2 {
 .about {
     display: inline-block;
     vertical-align: top;
-    width: 70%;
+    width: 65%;
 }
 
 .about p {
@@ -46,6 +51,7 @@ h2 {
 /*CONTACT INFO STYLING*/
 .contact {
     display: inline-block;
+    width: 25%;
 }
 
 .contact ul {
